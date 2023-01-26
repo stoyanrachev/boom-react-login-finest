@@ -1,6 +1,6 @@
 import React from "react"
-import styles from "./LoginForm.module.scss"
-export default LoginForm = () => {
+import styles from "./LoginForm.module.css"
+const LoginForm = () => {
     return (
         <form className={styles.form}>
             <label className={styles.label}>
@@ -17,3 +17,4 @@ export default LoginForm = () => {
     )
 }
 
+export default LoginForm;
